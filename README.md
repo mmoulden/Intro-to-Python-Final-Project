@@ -1,2 +1,4 @@
 # Intro-to-Python-Final-Project
-The final project for my Intro to Python class
+The final project for my Intro to Python class is a gender wage differential calculator that is designed to identify how much of a difference in wages is attributed to wage discrimination and how much is due to non-discrimination and (as discovered when testing the program) a special part of wage discrimination that is associated with the characterstics that is added to non-discrimination based wage difference.
+There are limitations to this calculator, namely that a baseline is set at education = 0 and when age is between 16 and 19. This means taht within this age and education range, if they are equal, it cannot calculate a difference in earnings according to, what I shall call, characteristic discrimination (which is still wage discrimination, but is attribited to the difference in multipliers I used for age and education.
+Lastly, this calculator utilizes public data from the Bureau of Labor Statistics but is in no way associated with the Bureau of Labor Statistics and this calculator is not to meant to be used for professional calculations of wage discrimination by gender.
