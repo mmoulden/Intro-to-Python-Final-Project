@@ -219,12 +219,12 @@ class calculator(object):                                                       
 
     def maleexperience():                           ## creates an experience multiplier for the male worker (uses average 3% yearly raise assumption as income increase to experience)
         maleexp = int(mexp)
-        mexpadjust = 1.03^maleexp
+        mexpadjust = 1.03**maleexp
         return mexpadjust
 
     def femaleexperience():                         ## creates an experence multiplier for the female worker (uses average 3% yearly raise assumption as income increase to experience)
         femaleexp = int(fexp)
-        fexpadjust = 1.03^femaleexp
+        fexpadjust = 1.03**femaleexp
         return fexpadjust
 
     def mchar(medmult, mahours, mexpadjust, maleageadjust):         ## takes the education multiplier, hours, experience mulitplier, and age multiplier for the male worker and returns a male characteristics variable
